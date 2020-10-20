@@ -100,7 +100,7 @@ In this model, average_hours_worked and income_family are categorical variables 
 
 For the model we have a low R-square which is 0.04413, and a low p-value which is 2.2e-16 (p-value <= 0.05). It means the model might not make accurate predictions but the predictors we used have an effect on the independent variable. Due to the low p-value, the feelings of life do change when the five independent variables change. 
 
-The p-value for each independent variable tests the null hypothesis of whether the variable has correlation with the dependent variable. 
+The p-value for each independent variable tests the null hypothesis that the variable has no correlation with the dependent variable.
 
 For the numerical variables, we can see that the number of children does not have a significant impact on feelings of life because its p-value is 0.12577, which is bigger than 0.05. In contrast, the p-values of both age and age at first marriage are smaller than 0.05, which means we have strong evidence to reject the null hypotheses. Hence these two variables do affect people’s feelings of life. 
 
@@ -122,7 +122,7 @@ As mentioned in the Results section, our model shows that while family income pl
 The conclusion that family income affects Canadians’ feelings about life most gives insight into what the Canadian government can do in order to generally improve people’s well-being. The key is to boost the economy so that there are more employment opportunities and better salaries. The government should also take into consideration the fact that people who have a low family income are likely to have bad feelings about life and thus may be at higher risk of developing mental illnesses. The government should provide those people with mental health support whenever necessary. As time goes by, there will be fewer and fewer cases of mental health disorders and the country will become more harmonious and a better place. 
 
 
-# Weaknesses
+## Weaknesses
 
 The weaknesses of our study can be categorized into different types, which are data drawbacks, methodological flaws, non-response issues and explanatory variables’ ineffectiveness, respectively. 
 
@@ -134,7 +134,7 @@ We have also noticed that the response rate of the survey is only 52.4%, which i
   
 Last but not least, it has been brought to our attention that some of the explanatory variables we chose may not be effective enough in predicting people’s feelings about life as a whole. For example, many of the respondents who are single and thus generally have a lower family income than married respondents still have good feelings about life. In this sense, respondents’ personal income may be a more effective predictor than family income is. In addition, many respondents do not have any wedding experiences but still feel good about life, which implies that the variable “age at first marriage” may play an insignificant role in influencing people’s feelings about life. Finally, different people have different personal experiences, which largely affect their perspectives and feelings about life. Therefore, it may be the personal experiences that essentially influence people’s feelings about life rather than age. 
 
-# Next Steps
+## Next Steps
 
 In order to improve the quality of the data, a follow-up survey that mainly focuses on numerical variables and asks the exact values rather than intervals can be conducted. We can build a new linear regression model, which will undeniably better contribute to our goal. 
 
@@ -155,4 +155,6 @@ In order to make our model more useful, we can replace the aforementioned non-ef
 6. Wickham, H. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York.
 7. Wickham, H., Hester, J., & Francois, R. (2018). readr: Read Rectangular Text Data. R package version 1.3.1. https://CRAN.R-project.org/package=readr
 
+## Link
 
+https://github.com/SHIYUN-TANG/STA304
